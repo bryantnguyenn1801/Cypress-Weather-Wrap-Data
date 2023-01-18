@@ -9,6 +9,8 @@ module.exports = defineConfig({
           return require('./cypress/plugins/index.js')(on, config)
         }
       ,
+
+  reporter: 'mochawesome',
   specPattern: "cypress/integration/*.feature",
   viewportWidth: 1366,
   viewportHeight: 768,

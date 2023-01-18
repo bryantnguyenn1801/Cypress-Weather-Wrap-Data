@@ -1,5 +1,5 @@
-Feature: Searching on Google 
-I want to search some information on Google
+Feature: Wrap Weather Data in Singapore
+I want to get information of the weather in 10 days in Singapore
 
 Scenario: Retrieve 10 days weather in Singapore
 
