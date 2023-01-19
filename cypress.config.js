@@ -10,7 +10,6 @@ module.exports = defineConfig({
         }
       ,
 
-  reporter: 'mochawesome',
   specPattern: "cypress/integration/*.feature",
   viewportWidth: 1366,
   viewportHeight: 768,

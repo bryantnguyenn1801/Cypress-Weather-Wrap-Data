@@ -1,26 +1,28 @@
 {
   "devDependencies": {
+    "cucumber-html-reporter": "5.5.0",
     "cypress": "12.3.0",
     "cypress-cucumber-preprocessor": "4.3.1",
-    "cypress-mochawesome-reporter": "3.2.3",
-    "marge": "1.0.1",
-    "mocha": "^10.2.0",
-    "mochawesome": "^7.1.3",
-    "mochawesome-merge": "4.2.2",
-    "mochawesome-report-generator": "6.2.0"
+    "multiple-cucumber-html-reporter": "3.1.0"
   },
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:test": "cypress run",
-    "cypress:test mocha reporter": "cypress run --reporter mochawesome --reporter-options reportDir=\"cypress/results\",overwrite=false,html=false,json=true",
-    "cypress:merge-report": "mochawesome-merge \"mochawesome-report/*.json\" > mochawesome.json",
-    "cypress:build-report": "marge mochawesome.json"
+    "cypress:run": "cypress run --browser chrome",
+    "cypress:report": "node cucumber-html-report.js",
+    "test": "npm run cypress:run && npm run cypress:report"
   },
   "dependencies": {
+    "cucumber": "^6.0.7",
     "cypress-xpath": "2.0.1",
     "moment": "2.29.1"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/reports/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
   }
 }

@@ -1,25 +1,14 @@
 {
   "result": [
     {
-      "date": "Wed 18",
-      "temporature": {
-        "Day": "24°",
-        "Night": ""
-      },
-      "humidity": {
-        "Day": "80%",
-        "Night": ""
-      }
-    },
-    {
       "date": "Thu 19",
       "temporature": {
-        "Day": "30°",
+        "Day": "29°",
         "Night": "25°"
       },
       "humidity": {
-        "Day": "76%",
-        "Night": "86%"
+        "Day": "79%",
+        "Night": "87%"
       }
     },
     {
@@ -29,7 +18,7 @@
         "Night": "24°"
       },
       "humidity": {
-        "Day": "78%",
+        "Day": "79%",
         "Night": "87%"
       }
     },
@@ -40,7 +29,7 @@
         "Night": "24°"
       },
       "humidity": {
-        "Day": "77%",
+        "Day": "79%",
         "Night": "88%"
       }
     },
@@ -62,7 +51,7 @@
         "Night": "24°"
       },
       "humidity": {
-        "Day": "79%",
+        "Day": "80%",
         "Night": "88%"
       }
     },
@@ -73,7 +62,7 @@
         "Night": "24°"
       },
       "humidity": {
-        "Day": "76%",
+        "Day": "78%",
         "Night": "87%"
       }
     },
@@ -85,29 +74,40 @@
       },
       "humidity": {
         "Day": "78%",
-        "Night": "87%"
+        "Night": "88%"
       }
     },
     {
       "date": "Thu 26",
       "temporature": {
         "Day": "30°",
-        "Night": "25°"
+        "Night": "24°"
       },
       "humidity": {
-        "Day": "76%",
-        "Night": "86%"
+        "Day": "77%",
+        "Night": "87%"
       }
     },
     {
       "date": "Fri 27",
       "temporature": {
         "Day": "30°",
+        "Night": "24°"
+      },
+      "humidity": {
+        "Day": "77%",
+        "Night": "87%"
+      }
+    },
+    {
+      "date": "Sat 28",
+      "temporature": {
+        "Day": "30°",
         "Night": "25°"
       },
       "humidity": {
-        "Day": "75%",
-        "Night": "85%"
+        "Day": "77%",
+        "Night": "87%"
       }
     }
   ]
